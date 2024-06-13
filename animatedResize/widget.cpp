@@ -133,8 +133,6 @@ Widget::~Widget(){}
 
 void Widget::tabStatus() {
     int maxWidth = tabBar->maximumWidth();
-    //int newMaxWidth = (maxWidth == 75) ? 200 : 75;
-    //tabBar->setMaximumWidth(newMaxWidth);
     int newMaxWidth;
     if (maxWidth < 100) {
         newMaxWidth = 200;
